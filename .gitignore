@@ -2,4 +2,4 @@
 #!./Experiment/*.m
 #!./Experiment/*.c
 #!./Experiment/*.slx
-./Experiment/*.mexw64
+*.mexw64
