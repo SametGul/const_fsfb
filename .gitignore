@@ -1,5 +1,1 @@
-#./Experiment/*.*
-#!./Experiment/*.m
-#!./Experiment/*.c
-#!./Experiment/*.slx
-/Experiment/*
+Experiment/*.slxc
