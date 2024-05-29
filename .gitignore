@@ -1,1 +1,3 @@
+# Exclude redundant folders
 Simulation/**/
+Experiment/**/
