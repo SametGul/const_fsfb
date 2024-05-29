@@ -4,59 +4,21 @@ This repository contains the simulation and experiment projects associated with 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Simulation](#simulation)
-5. [Experiment](#experiment)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Acknowledgements](#acknowledgements)
+1. [Summary of the Study](#summary-of-the-study)
+2. [Prerequisites](#prerequisites)
+3. [Simulation](#simulation)
+4. [Experiment](#experiment)
+5. [Results](#results)
 
-## Introduction
+## Summary of the Study
 
-This project demonstrates the application of a control method for robotic manipulators that ensures position constraints are met using desired model compensation. The method is implemented and tested through simulations using MATLAB Simulink, with controllers and dynamics written in C.
-
-The key objectives of this project are to:
-- Develop a robust control strategy for robotic manipulators that accounts for position constraints.
-- Implement the control strategy in a simulated environment to validate its effectiveness.
-- Provide a detailed analysis of the simulation results to demonstrate the performance improvements achieved by the proposed method.
+This work presents the design and the corresponding stability analysis of a desired model-based, joint position constrained, controller formulation for robotic manipulators. Specifically, provided that the initial joint position tracking error signal starts within some predefined region, the proposed controller ensures that the joint tracking error signal remains inside this region and approaches to zero asymptotically. Extensive numerical simulations and experimental studies performed on a two-link direct-drive planar robot are provided in order to illustrate the effectiveness and feasibility of the proposed controller.
 
 ## Prerequisites
 
-- MATLAB with Simulink
-- C compiler (e.g., GCC)
-- MATLAB Coder (if generating C code from MATLAB)
-
-## Usage
-
-Instructions on how to run the simulations and experiments.
-
-### Running the Simulation
-
-1. Open the Simulink model:
-
-    ```matlab
-    open('model_name.slx');
-    ```
-
-2. Run the simulation from the Simulink interface.
-
-### Running the Experiment
-
-1. Ensure the C code is compiled. You can use the provided Makefile:
-
-    ```bash
-    cd path_to_c_code
-    make
-    ```
-
-2. Execute the compiled program:
-
-    ```bash
-    ./compiled_program
-    ```
+- MATLAB with Simulink (MATLAB R2021a or above)
+- Mex C Compiler (if you want to make changes and compile C files)
+- Real-Time Desktop Kernel (in order to work on the Experiment Project)
 
 ## Simulation
 
