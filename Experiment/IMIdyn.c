@@ -1,17 +1,3 @@
-/* $Date:  Ocak 28, 2003$
- * $Revision: 0.99 $
- * $Author: EZ $
- *
- * File: IMIdyn.c 
- *
- * Abstract:
- *      S-Function for the 2d VS simulation
- *
-*
- * Copyright 2001-2003 Erkan Zergeroglu.
- * $Revision: 0.99 $
- */
- 
 #define S_FUNCTION_NAME  IMIdyn
 #define S_FUNCTION_LEVEL 2
 

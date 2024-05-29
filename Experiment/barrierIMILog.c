@@ -1,17 +1,3 @@
-/* $Date:  2017, I am back baby$
- * $Revision: 0.99 $
- * $Author: EZ $
- *
- * File: barrierIMILog.c
- *
- * Abstract: Barrier Lyapunov based adaptive controller 
- *            with logaritmic gain 
- *
- *
- * Copyright 2017-inf Erkan Zergeroglu.
- * $Revision: 0.99 $
- */
- 
 #define S_FUNCTION_NAME  barrierIMILog
 #define S_FUNCTION_LEVEL 2
 
